@@ -1,1 +1,0 @@
-/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_pose_trajectory.hpp

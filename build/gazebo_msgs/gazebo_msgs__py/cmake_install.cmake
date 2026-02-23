@@ -1,8 +1,8 @@
-# Install script for directory: /home/ultra/gazebo_ros/build/gazebo_msgs/gazebo_msgs__py
+# Install script for directory: /opt/ros/gazebo_ros_build/build/gazebo_msgs/gazebo_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ultra/gazebo_ros/install/gazebo_msgs")
+  set(CMAKE_INSTALL_PREFIX "/opt/ros/gazebo_ros_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

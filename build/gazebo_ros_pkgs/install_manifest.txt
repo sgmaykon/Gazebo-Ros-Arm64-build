@@ -1,0 +1,15 @@
+/opt/ros/gazebo_ros_build/install/share/ament_index/resource_index/package_run_dependencies/gazebo_ros_pkgs
+/opt/ros/gazebo_ros_build/install/share/ament_index/resource_index/parent_prefix_path/gazebo_ros_pkgs
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/environment/ament_prefix_path.sh
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/environment/ament_prefix_path.dsv
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/environment/path.sh
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/environment/path.dsv
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/local_setup.bash
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/local_setup.sh
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/local_setup.zsh
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/local_setup.dsv
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/package.dsv
+/opt/ros/gazebo_ros_build/install/share/ament_index/resource_index/packages/gazebo_ros_pkgs
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/cmake/gazebo_ros_pkgsConfig.cmake
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/cmake/gazebo_ros_pkgsConfig-version.cmake
+/opt/ros/gazebo_ros_build/install/share/gazebo_ros_pkgs/package.xml

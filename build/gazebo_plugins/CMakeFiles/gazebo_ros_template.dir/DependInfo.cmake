@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_template.cpp" "CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o" "gcc" "CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o.d"
+  "/opt/ros/gazebo_ros_build/src/gazebo_plugins/src/gazebo_ros_template.cpp" "CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o" "gcc" "CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o.d"
   )
 
 # Targets to which this target links.

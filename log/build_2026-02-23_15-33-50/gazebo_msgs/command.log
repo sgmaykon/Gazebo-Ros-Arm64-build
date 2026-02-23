@@ -1,0 +1,6 @@
+Invoking command in '/opt/ros/gazebo_ros_build/build/gazebo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/ros/gazebo_ros_build/src/gazebo_msgs -DCMAKE_INSTALL_PREFIX=/opt/ros/gazebo_ros_build/install
+Invoked command in '/opt/ros/gazebo_ros_build/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/ros/gazebo_ros_build/src/gazebo_msgs -DCMAKE_INSTALL_PREFIX=/opt/ros/gazebo_ros_build/install
+Invoking command in '/opt/ros/gazebo_ros_build/build/gazebo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/ros/gazebo_ros_build/build/gazebo_msgs -- -j6 -l6
+Invoked command in '/opt/ros/gazebo_ros_build/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/ros/gazebo_ros_build/build/gazebo_msgs -- -j6 -l6
+Invoking command in '/opt/ros/gazebo_ros_build/build/gazebo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/ros/gazebo_ros_build/build/gazebo_msgs
+Invoked command in '/opt/ros/gazebo_ros_build/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/ros/gazebo_ros_build/build/gazebo_msgs

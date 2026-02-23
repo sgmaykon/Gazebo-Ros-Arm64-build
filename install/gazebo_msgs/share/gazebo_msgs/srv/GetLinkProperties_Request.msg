@@ -1,1 +1,0 @@
-/home/ultra/gazebo_ros/build/gazebo_msgs/rosidl_cmake/srv/GetLinkProperties_Request.msg

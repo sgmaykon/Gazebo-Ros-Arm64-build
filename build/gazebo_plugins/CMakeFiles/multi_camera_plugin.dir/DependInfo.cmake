@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins/src/multi_camera_plugin.cpp" "CMakeFiles/multi_camera_plugin.dir/src/multi_camera_plugin.cpp.o" "gcc" "CMakeFiles/multi_camera_plugin.dir/src/multi_camera_plugin.cpp.o.d"
+  "/opt/ros/gazebo_ros_build/src/gazebo_plugins/src/multi_camera_plugin.cpp" "CMakeFiles/multi_camera_plugin.dir/src/multi_camera_plugin.cpp.o" "gcc" "CMakeFiles/multi_camera_plugin.dir/src/multi_camera_plugin.cpp.o.d"
   )
 
 # Targets to which this target links.

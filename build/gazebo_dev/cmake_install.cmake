@@ -1,8 +1,8 @@
-# Install script for directory: /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev
+# Install script for directory: /opt/ros/gazebo_ros_build/src/gazebo_dev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ultra/gazebo_ros/install/gazebo_dev")
+  set(CMAKE_INSTALL_PREFIX "/opt/ros/gazebo_ros_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,66 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ultra/gazebo_ros/build/gazebo_dev/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gazebo_dev")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gazebo_dev")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/environment" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/environment" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_index/share/ament_index/resource_index/packages/gazebo_dev")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/cmake" TYPE FILE FILES "/opt/ros/gazebo_ros_build/src/gazebo_dev/cmake/gazebo_dev-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev/cmake" TYPE FILE FILES
+    "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_core/gazebo_devConfig.cmake"
+    "/opt/ros/gazebo_ros_build/build/gazebo_dev/ament_cmake_core/gazebo_devConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_dev" TYPE FILE FILES "/opt/ros/gazebo_ros_build/src/gazebo_dev/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +113,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ultra/gazebo_ros/build/gazebo_dev/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/opt/ros/gazebo_ros_build/build/gazebo_dev/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

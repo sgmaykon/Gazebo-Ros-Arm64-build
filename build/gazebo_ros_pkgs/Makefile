@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros_pkgs
+CMAKE_SOURCE_DIR = /opt/ros/gazebo_ros_build/src/gazebo_ros_pkgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ultra/gazebo_ros/build/gazebo_ros_pkgs
+CMAKE_BINARY_DIR = /opt/ros/gazebo_ros_build/build/gazebo_ros_pkgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ultra/gazebo_ros/build/gazebo_ros_pkgs/CMakeFiles /home/ultra/gazebo_ros/build/gazebo_ros_pkgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/ros/gazebo_ros_build/build/gazebo_ros_pkgs/CMakeFiles /opt/ros/gazebo_ros_build/build/gazebo_ros_pkgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ultra/gazebo_ros/build/gazebo_ros_pkgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/ros/gazebo_ros_build/build/gazebo_ros_pkgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b26dee98ecdf29dbb8a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gazebo_msgs__py",
+					"jsonFile" : "directory-gazebo_msgs__py-4d1a76632b389d7882fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/opt/ros/gazebo_ros_build/build/gazebo_msgs/gazebo_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gazebo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gazebo_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gazebo_msgs_egg-9d6ef9d5663916855318.json",
+					"name" : "ament_cmake_python_build_gazebo_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gazebo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gazebo_msgs-6c6c084d997f8f72b8de.json",
+					"name" : "ament_cmake_python_copy_gazebo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs-61b386e8d2c1dabdf9db.json",
+					"name" : "gazebo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__cpp-5bdcbd0151052456b90b.json",
+					"name" : "gazebo_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gazebo_msgs__py::@a5addec3629b39cf0f3f",
+					"jsonFile" : "target-gazebo_msgs__py-6c76be9ed13821450f58.json",
+					"name" : "gazebo_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_generator_c-19722fbf3638ae240dcd.json",
+					"name" : "gazebo_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_generator_py-9a6167b40b32738a3c00.json",
+					"name" : "gazebo_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_c-4a69a793ed6c5a848a23.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_c__pyext-0b9cb88962cd3de36502.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_cpp-f35753013e72e6fc432f.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_fastrtps_c-bf47b9cc847200888c86.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext-d4667840344f514309a1.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_fastrtps_cpp-32a5fb4b6ae78949266e.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_introspection_c-7cc8fed7b4c285d7b54a.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_introspection_c__pyext-717d3d5650439ad1bef1.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_introspection_cpp-fd91cc119f93baca7e10.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs_uninstall-7c05260c0077e518b3f8.json",
+					"name" : "gazebo_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f5c6c3bb974b105328a3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/opt/ros/gazebo_ros_build/build/gazebo_msgs",
+		"source" : "/opt/ros/gazebo_ros_build/src/gazebo_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

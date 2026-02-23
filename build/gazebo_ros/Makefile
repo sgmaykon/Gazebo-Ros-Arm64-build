@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros
+CMAKE_SOURCE_DIR = /opt/ros/gazebo_ros_build/src/gazebo_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ultra/gazebo_ros/build/gazebo_ros
+CMAKE_BINARY_DIR = /opt/ros/gazebo_ros_build/build/gazebo_ros
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ultra/gazebo_ros/build/gazebo_ros/CMakeFiles /home/ultra/gazebo_ros/build/gazebo_ros//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/ros/gazebo_ros_build/build/gazebo_ros/CMakeFiles /opt/ros/gazebo_ros_build/build/gazebo_ros//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ultra/gazebo_ros/build/gazebo_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/ros/gazebo_ros_build/build/gazebo_ros/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -198,17 +198,17 @@ gazebo_ros_uninstall/fast:
 .PHONY : gazebo_ros_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_scripts
+# Target rules for targets named ament_cmake_python_copy_scripts
 
 # Build rule for target.
-ament_cmake_python_symlink_scripts: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_scripts
-.PHONY : ament_cmake_python_symlink_scripts
+ament_cmake_python_copy_scripts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_scripts
+.PHONY : ament_cmake_python_copy_scripts
 
 # fast build rule for target.
-ament_cmake_python_symlink_scripts/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_scripts.dir/build.make CMakeFiles/ament_cmake_python_symlink_scripts.dir/build
-.PHONY : ament_cmake_python_symlink_scripts/fast
+ament_cmake_python_copy_scripts/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_scripts.dir/build.make CMakeFiles/ament_cmake_python_copy_scripts.dir/build
+.PHONY : ament_cmake_python_copy_scripts/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_scripts_egg
@@ -904,7 +904,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_scripts_egg"
-	@echo "... ament_cmake_python_symlink_scripts"
+	@echo "... ament_cmake_python_copy_scripts"
 	@echo "... gazebo_ros_eol_gui_autogen"
 	@echo "... gazebo_ros_uninstall"
 	@echo "... uninstall"

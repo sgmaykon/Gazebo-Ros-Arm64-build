@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera.cpp" "CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o" "gcc" "CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o.d"
+  "/opt/ros/gazebo_ros_build/src/gazebo_plugins/src/gazebo_ros_camera.cpp" "CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o" "gcc" "CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ultra/gazebo_ros/build/gazebo_plugins/CMakeFiles/multi_camera_plugin.dir/DependInfo.cmake"
+  "/opt/ros/gazebo_ros_build/build/gazebo_plugins/CMakeFiles/multi_camera_plugin.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

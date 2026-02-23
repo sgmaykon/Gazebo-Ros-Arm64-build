@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs
+CMAKE_SOURCE_DIR = /opt/ros/gazebo_ros_build/src/gazebo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ultra/gazebo_ros/build/gazebo_msgs
+CMAKE_BINARY_DIR = /opt/ros/gazebo_ros_build/build/gazebo_msgs
 
 # Utility rule file for gazebo_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/gazebo_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/gazebo_msgs_uninstall.dir/progress.make
 
 CMakeFiles/gazebo_msgs_uninstall:
-	/usr/bin/cmake -P /home/ultra/gazebo_ros/build/gazebo_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /opt/ros/gazebo_ros_build/build/gazebo_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 gazebo_msgs_uninstall: CMakeFiles/gazebo_msgs_uninstall
 gazebo_msgs_uninstall: CMakeFiles/gazebo_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/gazebo_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/gazebo_msgs_uninstall.dir/clean
 
 CMakeFiles/gazebo_msgs_uninstall.dir/depend:
-	cd /home/ultra/gazebo_ros/build/gazebo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs /home/ultra/gazebo_ros/build/gazebo_msgs /home/ultra/gazebo_ros/build/gazebo_msgs /home/ultra/gazebo_ros/build/gazebo_msgs/CMakeFiles/gazebo_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/ros/gazebo_ros_build/build/gazebo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/ros/gazebo_ros_build/src/gazebo_msgs /opt/ros/gazebo_ros_build/src/gazebo_msgs /opt/ros/gazebo_ros_build/build/gazebo_msgs /opt/ros/gazebo_ros_build/build/gazebo_msgs /opt/ros/gazebo_ros_build/build/gazebo_msgs/CMakeFiles/gazebo_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gazebo_msgs_uninstall.dir/depend
 

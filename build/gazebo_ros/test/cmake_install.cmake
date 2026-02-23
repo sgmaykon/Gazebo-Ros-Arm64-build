@@ -1,8 +1,8 @@
-# Install script for directory: /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros/test
+# Install script for directory: /opt/ros/gazebo_ros_build/src/gazebo_ros/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ultra/gazebo_ros/install/gazebo_ros")
+  set(CMAKE_INSTALL_PREFIX "/opt/ros/gazebo_ros_build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ultra/gazebo_ros/build/gazebo_ros/gtest/cmake_install.cmake")
+  include("/opt/ros/gazebo_ros_build/build/gazebo_ros/gtest/cmake_install.cmake")
 
 endif()
 

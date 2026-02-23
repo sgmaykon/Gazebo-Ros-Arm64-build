@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs
+CMAKE_SOURCE_DIR = /opt/ros/gazebo_ros_build/src/gazebo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ultra/gazebo_ros/build/gazebo_msgs
+CMAKE_BINARY_DIR = /opt/ros/gazebo_ros_build/build/gazebo_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ultra/gazebo_ros/build/gazebo_msgs/CMakeFiles /home/ultra/gazebo_ros/build/gazebo_msgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/ros/gazebo_ros_build/build/gazebo_msgs/CMakeFiles /opt/ros/gazebo_ros_build/build/gazebo_msgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ultra/gazebo_ros/build/gazebo_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/ros/gazebo_ros_build/build/gazebo_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -315,17 +315,17 @@ gazebo_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : gazebo_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_gazebo_msgs
+# Target rules for targets named ament_cmake_python_copy_gazebo_msgs
 
 # Build rule for target.
-ament_cmake_python_symlink_gazebo_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_gazebo_msgs
-.PHONY : ament_cmake_python_symlink_gazebo_msgs
+ament_cmake_python_copy_gazebo_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_gazebo_msgs
+.PHONY : ament_cmake_python_copy_gazebo_msgs
 
 # fast build rule for target.
-ament_cmake_python_symlink_gazebo_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_gazebo_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_gazebo_msgs.dir/build
-.PHONY : ament_cmake_python_symlink_gazebo_msgs/fast
+ament_cmake_python_copy_gazebo_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_gazebo_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_gazebo_msgs.dir/build
+.PHONY : ament_cmake_python_copy_gazebo_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_gazebo_msgs_egg
@@ -8747,7 +8747,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_gazebo_msgs_egg"
-	@echo "... ament_cmake_python_symlink_gazebo_msgs"
+	@echo "... ament_cmake_python_copy_gazebo_msgs"
 	@echo "... gazebo_msgs"
 	@echo "... gazebo_msgs__cpp"
 	@echo "... gazebo_msgs__py"

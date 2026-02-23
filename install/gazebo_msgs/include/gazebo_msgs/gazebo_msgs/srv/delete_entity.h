@@ -1,1 +1,0 @@
-/home/ultra/gazebo_ros/build/gazebo_msgs/rosidl_generator_c/gazebo_msgs/srv/delete_entity.h

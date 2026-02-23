@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev
+CMAKE_SOURCE_DIR = /opt/ros/gazebo_ros_build/src/gazebo_dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ultra/gazebo_ros/build/gazebo_dev
+CMAKE_BINARY_DIR = /opt/ros/gazebo_ros_build/build/gazebo_dev
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ultra/gazebo_ros/build/gazebo_dev && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev /home/ultra/gazebo_ros/build/gazebo_dev /home/ultra/gazebo_ros/build/gazebo_dev /home/ultra/gazebo_ros/build/gazebo_dev/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/ros/gazebo_ros_build/build/gazebo_dev && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/ros/gazebo_ros_build/src/gazebo_dev /opt/ros/gazebo_ros_build/src/gazebo_dev /opt/ros/gazebo_ros_build/build/gazebo_dev /opt/ros/gazebo_ros_build/build/gazebo_dev /opt/ros/gazebo_ros_build/build/gazebo_dev/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
