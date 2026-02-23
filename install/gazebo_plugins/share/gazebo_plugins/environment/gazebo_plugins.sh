@@ -1,0 +1,1 @@
+/home/ultra/gazebo_ros/build/gazebo_plugins/ament_cmake_environment_hooks/gazebo_plugins.sh

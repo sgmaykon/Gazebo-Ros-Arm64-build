@@ -1,0 +1,1 @@
+/home/ultra/gazebo_ros/build/gazebo_dev/ament_cmake_environment_hooks/local_setup.zsh

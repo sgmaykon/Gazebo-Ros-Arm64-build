@@ -1,0 +1,1 @@
+/home/ultra/gazebo_ros/build/gazebo_msgs/rosidl_generator_py/gazebo_msgs/msg/_contacts_state.py

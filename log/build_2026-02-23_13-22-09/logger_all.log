@@ -1,0 +1,455 @@
+[0.650s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.651s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff82ba3160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82cf4070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82cf4070>>, mixin_verb=('build',))
+[1.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.778s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ultra/gazebo_ros'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_meta'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ros']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ros'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['cmake', 'python']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'cmake'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['python_setup_py']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python_setup_py'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore_ament_install'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_pkg']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_pkg'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_meta']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_meta'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ros']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ros'
+[1.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_dev' with type 'ros.ament_cmake' and name 'gazebo_dev'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore_ament_install'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_pkg']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_pkg'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_meta']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_meta'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ros']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ros'
+[1.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_msgs' with type 'ros.ament_cmake' and name 'gazebo_msgs'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore_ament_install'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_pkg']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_pkg'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_meta']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_meta'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ros']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ros'
+[1.904s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_plugins' with type 'ros.ament_cmake' and name 'gazebo_plugins'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore_ament_install'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_pkg']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_pkg'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_meta']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_meta'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ros']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ros'
+[1.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros' with type 'ros.ament_cmake' and name 'gazebo_ros'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore_ament_install'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_pkg']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_pkg'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_meta']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_meta'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ros']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ros'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['cmake', 'python']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'cmake'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['python_setup_py']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python_setup_py'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_meta'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ros']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ros'
+[1.930s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros_pkgs' with type 'ros.ament_cmake' and name 'gazebo_ros_pkgs'
+[1.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.027s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[2.030s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[2.033s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_args' from command line to 'None'
+[2.047s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target' from command line to 'None'
+[2.047s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.047s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_cache' from command line to 'False'
+[2.047s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_first' from command line to 'False'
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_force_configure' from command line to 'False'
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'ament_cmake_args' from command line to 'None'
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_cmake_args' from command line to 'None'
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.048s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_dev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ultra/gazebo_ros/build/gazebo_dev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ultra/gazebo_ros/install/gazebo_dev', 'merge_install': False, 'path': '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev', 'symlink_install': True, 'test_result_base': None}
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_args' from command line to 'None'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target' from command line to 'None'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.053s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ultra/gazebo_ros/build/gazebo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ultra/gazebo_ros/install/gazebo_msgs', 'merge_install': False, 'path': '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_args' from command line to 'None'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target' from command line to 'None'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.057s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ultra/gazebo_ros/build/gazebo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ultra/gazebo_ros/install/gazebo_ros', 'merge_install': False, 'path': '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros', 'symlink_install': True, 'test_result_base': None}
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.060s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ultra/gazebo_ros/build/gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ultra/gazebo_ros/install/gazebo_plugins', 'merge_install': False, 'path': '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins', 'symlink_install': True, 'test_result_base': None}
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_args' from command line to 'None'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target' from command line to 'None'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.063s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.064s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.064s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_pkgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ultra/gazebo_ros/build/gazebo_ros_pkgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs', 'merge_install': False, 'path': '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros_pkgs', 'symlink_install': True, 'test_result_base': None}
+[2.064s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.073s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev' with build type 'ament_cmake'
+[2.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev'
+[2.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.121s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs' with build type 'ament_cmake'
+[2.121s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs'
+[2.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_dev
+[2.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_msgs
+[5.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_dev
+[5.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_dev -- -j6 -l6
+[6.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_dev -- -j6 -l6
+[6.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_dev
+[7.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[7.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_dev
+[7.092s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev' for CMake module files
+[7.096s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev' for CMake config files
+[7.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[7.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[7.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[7.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[7.109s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/bin'
+[7.110s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[7.121s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/lib/python3.10/site-packages'
+[7.123s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/bin'
+[7.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[7.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[7.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.sh'
+[7.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.bash'
+[7.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[7.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[7.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[7.190s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev' for CMake module files
+[7.194s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev' for CMake config files
+[7.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[7.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[7.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[7.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/bin'
+[7.207s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[7.208s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/lib/python3.10/site-packages'
+[7.209s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_dev/bin'
+[7.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[7.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[7.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.sh'
+[7.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.bash'
+[7.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[7.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[15.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_msgs
+[15.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_msgs -- -j6 -l6
+[200.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_msgs -- -j6 -l6
+[200.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_msgs
+[237.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[237.068s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs' for CMake module files
+[237.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_msgs
+[237.075s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs' for CMake config files
+[237.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[237.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[237.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[237.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[237.099s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/lib'
+[237.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[237.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[237.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[237.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[237.108s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/bin'
+[237.108s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[237.110s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/lib/python3.10/site-packages'
+[237.111s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/bin'
+[237.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[237.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[237.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[237.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[237.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[237.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[237.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[237.130s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs' for CMake module files
+[237.135s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs' for CMake config files
+[237.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[237.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[237.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[237.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[237.155s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/lib'
+[237.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[237.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[237.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[237.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[237.163s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/bin'
+[237.163s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[237.164s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/lib/python3.10/site-packages'
+[237.165s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_msgs/bin'
+[237.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[237.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[237.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[237.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[237.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[237.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[237.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros' with build type 'ament_cmake'
+[237.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros'
+[237.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[237.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[237.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_ros': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_ros
+[255.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_ros
+[255.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_ros': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_ros -- -j6 -l6
+[718.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_ros -- -j6 -l6
+[718.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_ros': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_ros
+[721.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[721.405s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros' for CMake module files
+[721.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_ros
+[721.413s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros' for CMake config files
+[721.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'cmake_prefix_path')
+[721.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.ps1'
+[721.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.dsv'
+[721.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.sh'
+[721.433s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/lib'
+[721.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'ld_library_path_lib')
+[721.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.ps1'
+[721.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.dsv'
+[721.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.sh'
+[721.442s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/bin'
+[721.442s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[721.444s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/lib/python3.10/site-packages'
+[721.445s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/bin'
+[721.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[721.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[721.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.sh'
+[721.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.bash'
+[721.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[721.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[721.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[721.466s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros' for CMake module files
+[721.470s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros' for CMake config files
+[721.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'cmake_prefix_path')
+[721.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.ps1'
+[721.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.dsv'
+[721.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.sh'
+[721.485s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/lib'
+[721.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'ld_library_path_lib')
+[721.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.ps1'
+[721.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.dsv'
+[721.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.sh'
+[721.493s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/bin'
+[721.493s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[721.494s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/lib/python3.10/site-packages'
+[721.495s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros/bin'
+[721.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[721.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[721.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.sh'
+[721.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.bash'
+[721.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[721.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[721.512s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins' with build type 'ament_cmake'
+[721.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins'
+[721.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[721.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[721.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_plugins
+[744.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_plugins
+[744.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_plugins -- -j6 -l6
+[1869.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_plugins -- -j6 -l6
+[1869.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_plugins
+[1873.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_plugins)
+[1873.535s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins' for CMake module files
+[1873.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_plugins
+[1873.542s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins' for CMake config files
+[1873.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'cmake_prefix_path')
+[1873.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.ps1'
+[1873.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.dsv'
+[1873.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.sh'
+[1873.558s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/lib'
+[1873.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'ld_library_path_lib')
+[1873.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.ps1'
+[1873.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.dsv'
+[1873.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.sh'
+[1873.567s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/bin'
+[1873.567s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/lib/pkgconfig/gazebo_plugins.pc'
+[1873.569s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/lib/python3.10/site-packages'
+[1873.570s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/bin'
+[1873.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.ps1'
+[1873.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.dsv'
+[1873.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.sh'
+[1873.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.bash'
+[1873.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.zsh'
+[1873.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_plugins/share/colcon-core/packages/gazebo_plugins)
+[1873.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_plugins)
+[1873.591s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins' for CMake module files
+[1873.596s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins' for CMake config files
+[1873.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'cmake_prefix_path')
+[1873.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.ps1'
+[1873.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.dsv'
+[1873.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.sh'
+[1873.609s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/lib'
+[1873.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'ld_library_path_lib')
+[1873.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.ps1'
+[1873.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.dsv'
+[1873.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.sh'
+[1873.618s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/bin'
+[1873.618s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/lib/pkgconfig/gazebo_plugins.pc'
+[1873.620s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/lib/python3.10/site-packages'
+[1873.621s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_plugins/bin'
+[1873.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.ps1'
+[1873.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.dsv'
+[1873.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.sh'
+[1873.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.bash'
+[1873.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_plugins/share/gazebo_plugins/package.zsh'
+[1873.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_plugins/share/colcon-core/packages/gazebo_plugins)
+[1873.645s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros_pkgs' with build type 'ament_cmake'
+[1873.647s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros_pkgs'
+[1873.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1873.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1873.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_ros_pkgs': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/home/ultra/gazebo_ros/install/gazebo_plugins/lib:/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros_pkgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_ros_pkgs
+[1877.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/home/ultra/gazebo_ros/install/gazebo_plugins/lib:/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros_pkgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_ros_pkgs
+[1877.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_ros_pkgs': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/home/ultra/gazebo_ros/install/gazebo_plugins/lib:/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_ros_pkgs -- -j6 -l6
+[1877.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/home/ultra/gazebo_ros/install/gazebo_plugins/lib:/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_ros_pkgs -- -j6 -l6
+[1877.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ultra/gazebo_ros/build/gazebo_ros_pkgs': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/home/ultra/gazebo_ros/install/gazebo_plugins/lib:/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_ros_pkgs
+[1878.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_pkgs)
+[1878.397s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs' for CMake module files
+[1878.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ultra/gazebo_ros/build/gazebo_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ultra/gazebo_ros/install/gazebo_plugins:/home/ultra/gazebo_ros/install/gazebo_ros:/home/ultra/gazebo_ros/install/gazebo_msgs:/home/ultra/gazebo_ros/install/gazebo_dev:/home/ultra/workspace/install/laris_robot:/opt/ros/humble LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/home/ultra/gazebo_ros/install/gazebo_plugins/lib:/home/ultra/gazebo_ros/install/gazebo_ros/lib:/home/ultra/gazebo_ros/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ultra/gazebo_ros/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/ultra/gazebo_ros/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_ros_pkgs
+[1878.402s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs' for CMake config files
+[1878.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_pkgs', 'cmake_prefix_path')
+[1878.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.ps1'
+[1878.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.dsv'
+[1878.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.sh'
+[1878.415s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/bin'
+[1878.415s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/lib/pkgconfig/gazebo_ros_pkgs.pc'
+[1878.416s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/lib/python3.10/site-packages'
+[1878.418s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/bin'
+[1878.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.ps1'
+[1878.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.dsv'
+[1878.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.sh'
+[1878.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.bash'
+[1878.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.zsh'
+[1878.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/colcon-core/packages/gazebo_ros_pkgs)
+[1878.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_pkgs)
+[1878.436s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs' for CMake module files
+[1878.439s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs' for CMake config files
+[1878.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_pkgs', 'cmake_prefix_path')
+[1878.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.ps1'
+[1878.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.dsv'
+[1878.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.sh'
+[1878.450s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/bin'
+[1878.450s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/lib/pkgconfig/gazebo_ros_pkgs.pc'
+[1878.452s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/lib/python3.10/site-packages'
+[1878.452s] Level 1:colcon.colcon_core.environment:checking '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/bin'
+[1878.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.ps1'
+[1878.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.dsv'
+[1878.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.sh'
+[1878.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.bash'
+[1878.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.zsh'
+[1878.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ultra/gazebo_ros/install/gazebo_ros_pkgs/share/colcon-core/packages/gazebo_ros_pkgs)
+[1878.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1878.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1878.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1878.472s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1878.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1878.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1878.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1878.517s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1878.528s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1878.531s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1878.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ultra/gazebo_ros/install/local_setup.ps1'
+[1878.545s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ultra/gazebo_ros/install/_local_setup_util_ps1.py'
+[1878.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ultra/gazebo_ros/install/setup.ps1'
+[1878.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ultra/gazebo_ros/install/local_setup.sh'
+[1878.564s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ultra/gazebo_ros/install/_local_setup_util_sh.py'
+[1878.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ultra/gazebo_ros/install/setup.sh'
+[1878.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ultra/gazebo_ros/install/local_setup.bash'
+[1878.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ultra/gazebo_ros/install/setup.bash'
+[1878.582s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ultra/gazebo_ros/install/local_setup.zsh'
+[1878.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ultra/gazebo_ros/install/setup.zsh'

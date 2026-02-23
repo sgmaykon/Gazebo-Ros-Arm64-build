@@ -1,0 +1,42 @@
+[0.091s] Invoking command in '/home/ultra/gazebo_ros/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_dev
+[0.495s] -- The C compiler identification is GNU 11.4.0
+[0.837s] -- The CXX compiler identification is GNU 11.4.0
+[0.880s] -- Detecting C compiler ABI info
+[1.279s] -- Detecting C compiler ABI info - done
+[1.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.330s] -- Detecting C compile features
+[1.332s] -- Detecting C compile features - done
+[1.351s] -- Detecting CXX compiler ABI info
+[1.810s] -- Detecting CXX compiler ABI info - done
+[1.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.858s] -- Detecting CXX compile features
+[1.860s] -- Detecting CXX compile features - done
+[1.878s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.788s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.799s] -- Configuring done
+[3.826s] -- Generating done
+[3.838s] -- Build files have been written to: /home/ultra/gazebo_ros/build/gazebo_dev
+[3.860s] Invoked command in '/home/ultra/gazebo_ros/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ultra/gazebo_ros/install/gazebo_dev
+[3.870s] Invoking command in '/home/ultra/gazebo_ros/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_dev -- -j6 -l6
+[4.076s] Invoked command in '/home/ultra/gazebo_ros/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ultra/gazebo_ros/build/gazebo_dev -- -j6 -l6
+[4.133s] Invoking command in '/home/ultra/gazebo_ros/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_dev
+[4.172s] -- Install configuration: ""
+[4.175s] -- Execute custom install script
+[4.178s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[4.233s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[4.287s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[4.340s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[4.387s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[4.445s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[4.501s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[4.549s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[4.606s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[4.657s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[4.704s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.dsv
+[4.751s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[4.799s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[4.844s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[4.893s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[4.941s] -- Symlinking: /home/ultra/gazebo_ros/install/gazebo_dev/share/gazebo_dev/package.xml
+[5.004s] Invoked command in '/home/ultra/gazebo_ros/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ultra/gazebo_ros/build/gazebo_dev

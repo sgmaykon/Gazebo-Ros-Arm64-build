@@ -1,0 +1,1 @@
+/home/ultra/gazebo_ros/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/node.hpp

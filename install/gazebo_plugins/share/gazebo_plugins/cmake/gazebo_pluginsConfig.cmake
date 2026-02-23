@@ -1,0 +1,1 @@
+/home/ultra/gazebo_ros/build/gazebo_plugins/ament_cmake_core/gazebo_pluginsConfig.cmake

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gazebo_msgs__py",
+		"source" : "/home/ultra/gazebo_ros/build/gazebo_msgs/gazebo_msgs__py"
+	}
+}
